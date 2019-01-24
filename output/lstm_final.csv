@@ -1,0 +1,4 @@
+Model,Columns,Runtime,Test RMSE,Train RMSE,MAE Test,MAE Train,Accuracy Test,Accuracy Train,R2 Test,R2 Train
+LSTM,All,49:46.7,62.14,36.23,51.79,29.17,71.74,88.49,0.96,0.99
+LSTM,"'rv1','rv2','Visibility','T9'",49:31.1,65.3,100.43,49.56,89.34,90.53,65.54,0.89,0.65
+LSTM,"rv1','rv2','Visibility','T9','T_out','T1','T7','T5','Tdewpoint','Windspeed','RH_9','RH_4','T6','RH_7'",48:24.5,78.24,60.12,60.64,46.27,80.90,93.28,0.91,0.89

@@ -1,0 +1,12 @@
+
+,Model,Columns,Runtime,Test RMSE,Train RMSE,MAE Test,MAE Train,Accuracy Test,Accuracy Train,R2 Test,R2 Train
+0,LSTM,"['Appliances' 'lights' 'T1' 'RH_1' 'T2' 'RH_2' 'T3' 'RH_3' 'T4' 'RH_4'
+ 'T5' 'RH_5' 'T6' 'RH_6' 'T7' 'RH_7' 'T8' 'RH_8' 'T9' 'RH_9' 'T_out'
+ 'Press_mm_hg' 'RH_out' 'Windspeed' 'Visibility' 'Tdewpoint' 'rv1' 'rv2']",0 days 00:49:46.704865000,62.141152021231974,36.23083732364501,51.79,29.17,71.74,88.49,0.9593456170347766,0.9864090152068399
+,Model,Columns,Runtime,Test RMSE,Train RMSE,MAE Test,MAE Train,Accuracy Test,Accuracy Train,R2 Test,R2 Train
+0,LSTM,"['Appliances' 'lights' 'T1' 'RH_1' 'T2' 'RH_2' 'T3' 'RH_3' 'T4' 'RH_4'
+ 'T5' 'RH_5' 'T6' 'RH_6' 'T7' 'RH_7' 'T8' 'RH_8' 'RH_9' 'T_out'
+ 'Press_mm_hg' 'RH_out' 'Windspeed' 'Tdewpoint']",0 days 07:08:31.102389000,65.30058880761463,100.43475414893828,49.56,89.34,90.53,65.54,0.8937809814000107,0.6536731830787781
+,Model,Columns,Runtime,Test RMSE,Train RMSE,MAE Test,MAE Train,Accuracy Test,Accuracy Train,R2 Test,R2 Train
+0,LSTM,"['Appliances' 'lights' 'RH_1' 'T2' 'RH_2' 'T3' 'RH_3' 'T4' 'RH_5' 'RH_6'
+ 'T8' 'RH_8' 'Press_mm_hg' 'RH_out']",0 days 00:48:24.504607000,78.24677099855322,60.11510305635352,60.64,46.27,80.9,93.28,0.9131348475314797,0.8908162348038611
